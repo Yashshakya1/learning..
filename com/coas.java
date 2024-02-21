@@ -7,9 +7,9 @@ public class coas{
         System.out.println("--------------this is calculator for shapes and normal calculation------------");
         System.out.println("this is instractions for using this programe\n1.calculate for perimeter of rectangal:--\n2.calculate for discriment\n3.calculate for tringle\n4.calculate for surface area of cuboid\n5.calculate for area of circle\n6.calculate for volume of cylinder");
         System.out.println("enter your number");
-        int a = sc.nextInt();
+        int mamo = sc.nextInt();
 
-        switch (a){
+        switch (mamo){
 
             case 1: {
                 System.out.println("enter your lenght:-");
