@@ -51,12 +51,14 @@ public class array  {
             // 2nd example of array in for loop //
 
             System.out.println("the success keywards ");
-            String[] dream = {"passinate","determenation","dadication","hard work","never give up"};
+            String[] dream = {"passinate","determenation","dadication",
+                    "hard work","never give up"};
             for(int d = 0; d<dream.length; d++){
                    System.out.println(dream[d]);
             }
 
-        System.out.println("this is a key of success to achieve your not a dream it's aim your life ");
+        System.out.println("this is a key of success to achieve your" +
+                " not a dream it's aim your life ");
 
             // in reverse order array in loop //
 
