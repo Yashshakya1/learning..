@@ -2,7 +2,7 @@ package learning.com;
 
 public class array_2d {
     public static void main(String[] args) {
-        // this is a 2d array // 
+        // this is a 2d array //
         int[][] flats = new int[3][3];
         flats [0][0] = 10;
         flats [0][1] = 20;
