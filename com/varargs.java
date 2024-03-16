@@ -23,7 +23,7 @@ public class varargs {
        return result;
    }
     public static void main(String[] args) {
-        System.out.println("the sum of 2 numbers are "+(sum()) );                     // you are not use the empty
+        System.out.println("the sum of 2 numbers are "+(sum(0)) );                     // you are not use the empty
         System.out.println("the sum of 2 numbers are "+(sum(5,4)) );        // because i put one more integer in
         System.out.println("the sum of 3 numbers are "+(sum(5,4,5)) );      // perimeters
         System.out.println("the sum of 8 numbers are "+(sum(5,4,8,7,9,7,5,45)) );
