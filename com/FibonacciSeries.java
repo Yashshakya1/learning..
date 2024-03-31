@@ -7,7 +7,6 @@ public class FibonacciSeries {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the limit for Fibonacci series: ");
         int limit = scanner.nextInt();
-
         System.out.println("Fibonacci series up to " + limit + " terms:");
         int a = 0, b = 1;
         System.out.print(a + " " + b + " ");
