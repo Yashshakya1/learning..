@@ -4,6 +4,7 @@ public class recursion {
    int  fibonacci_num(int limit,int next){
        Scanner bc = new Scanner(System.in);
        System.out.println("the fibonacci series up to "+ limit );
+       int ac = bc.nextInt();
        limit = 5;
        int a = 0; int b = 1;
        for (int i=2; i <limit; i++){
